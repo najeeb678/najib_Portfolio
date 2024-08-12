@@ -1,3 +1,4 @@
+import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import { FloatingNav } from "@/components/ui/FloatingNavBar";
@@ -13,6 +14,7 @@ export default function Home() {
           </div>
           <FloatingNav navItems={navItems} />
           <Hero />
+          <Grid/>
         </div>
       </main>
     </>
